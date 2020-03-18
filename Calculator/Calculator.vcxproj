@@ -138,6 +138,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="bignum.h" />
+    <ClInclude Include="calculator.h" />
+    <ClInclude Include="node.h" />
+    <ClInclude Include="ops.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bignum.cpp" />
+    <ClCompile Include="calculator.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="node.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
